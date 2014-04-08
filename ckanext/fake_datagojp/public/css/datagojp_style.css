@@ -8,13 +8,13 @@
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
 .masthead .navigation .nav-pills li a:hover {
-  background-color: rgb(48, 48, 48);
+  background-color: rgb(120, 120, 0);
   color: white;
 }
 /* The "active" navigation pill (for example, when you're on the /dataset page
    the "Datasets" link is active). */
 .masthead .navigation .nav-pills li.active a {
-  background-color: rgb(72, 72, 72);
+  background-color: rgb(140, 140, 0);
 }
 /* The "box shadow" effect that appears around the search box when it
    has the keyboard cursor's focus. */
@@ -27,6 +27,11 @@
 /* ===========================================
    The content in the middle of the front page
    =========================================== */
+
+.hero {
+  background-image: none;
+  background-color: white;
+}
 
 /* Remove the "box shadow" effect around various boxes on the page. */
 .box {
