@@ -1,32 +1,9 @@
-/* =====================================================
-   The "account masthead" bar across the top of the site
-   ===================================================== */
-
-.account-masthead {
-    background-color: rgb(40, 40, 40);
-}
-/* The "bubble" containing the number of new notifications. */
-.account-masthead .account .notifications a span {
-  background-color: black;
-}
-/* The text and icons in the user account info. */
-.account-masthead .account ul li a {
-  color: rgba(255, 255, 255, 0.6);
-}
-/* The user account info text and icons, when the user's pointer is hovering
-   over them. */
-.account-masthead .account ul li a:hover {
-  color: rgba(255, 255, 255, 0.7);
-  background-color: black;
-}
-
-
 /* ========================================================================
    The main masthead bar that contains the site logo, nav links, and search
    ======================================================================== */
 
 .masthead {
-  background-color: #3d3d3d;
+  background-color: rgb(102, 102, 0);
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
@@ -37,7 +14,7 @@
 /* The "active" navigation pill (for example, when you're on the /dataset page
    the "Datasets" link is active). */
 .masthead .navigation .nav-pills li.active a {
-  background-color: rgb(74, 74, 74);
+  background-color: rgb(72, 72, 72);
 }
 /* The "box shadow" effect that appears around the search box when it
    has the keyboard cursor's focus. */
@@ -67,7 +44,7 @@
 }
 /* Change the background color of the "Popular Tags" box. */
 .homepage .module-search .tags {
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(102, 102, 0);
 }
 /* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
    and "Search Your Data" boxes line up. */
@@ -89,15 +66,15 @@
 
 .site-footer,
 body {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(102, 102, 00);
 }
 /* The text in the footer. */
 .site-footer,
 .site-footer label,
 .site-footer small {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
 /* The link texts in the footer. */
 .site-footer a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
